@@ -361,7 +361,7 @@ h2 {
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
 #page-5 {
-    background-image: url('images/06.2.png'); /* Arka plan resmi */
+    background-image: url('images/06.2.avif'); /* Arka plan resmi */
     width: 100vw; /* Ekran genişliği */
     height: auto    ; /* Ekran yüksekliği */
     background-size: cover;
@@ -374,7 +374,7 @@ h2 {
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
 #page-6 {
-    background-image: url('images/05.png'); /* Arka plan resmi */
+    background-image: url('images/05.avif'); /* Arka plan resmi */
     width: 100vw; /* Ekran genişliği */
     height: auto    ; /* Ekran yüksekliği */
     background-size: cover;
@@ -387,7 +387,7 @@ h2 {
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
 #page-7 {
-    background-image: url('images/07.1.png'); /* Arka plan resmi */
+    background-image: url('images/07.1.avif'); /* Arka plan resmi */
     width: 100vw; /* Ekran genişliği */
     height: auto    ; /* Ekran yüksekliği */
     background-size: cover;
@@ -674,12 +674,6 @@ h2 {
 .fly-away {
     animation: flyAway 0.7s ease-in-out forwards;
 }
-/*
-.flex-container {
-    display: flex;
-    flex-direction: row;
-}
-*/
 
 /* Modal Penceresi arkaplanı (Menü Resim)*/
 .modal {
@@ -695,7 +689,6 @@ h2 {
     z-index: 1000;
 }
 
-
     .modal-content-container {
         position: relative;
         display: flex;
@@ -708,13 +701,11 @@ h2 {
         animation: fadeIn 0.3s ease-in-out;
     }
 
-
         .modal-image {
             max-width: 90vw;
             max-height: 90vh;
             border-radius: 10px;
         }
-
 
         .close-button {
             position: absolute;
@@ -790,7 +781,7 @@ h2 {
         /* height: 100%; Ekran yüksekliği */
     }
     #page-7 {
-        background-image: url('images/07.png');
+        background-image: url('images/07.avif');
         width: 100vw; /* Ekran genişliği */
         /* height: 100%; Ekran yüksekliği */
     }
@@ -865,13 +856,7 @@ h2 {
         display: block;
         margin: 0 auto; /* Logo tam ortada hizalanır */
     }
-/*
-    .btn-language, .btn-search {
-        top: 12px;
-        padding: 7px 12px;
-        font-size: 13px;
-    }
-*/
+
     .button-container {
         height: 400px;
         width: 49vw; /* Butonlar orta boyut için optimize edildi */
@@ -1050,13 +1035,7 @@ h2 {
         display: block;
         margin: 0 auto; /* Logo tam ortada hizalanır */
     }
-/*
-    .btn-language, .btn-search {
-        top: 10px;
-        padding: 6px 10px;
-        font-size: 12px;
-    }
-*/
+
     .button-container{
         height: 200px;
         width: 49vw; /* Mobilde daha küçük butonlar */
