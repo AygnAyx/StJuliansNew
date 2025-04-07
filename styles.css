@@ -795,32 +795,32 @@ h2 {
     }
     #page-1 {
         width: 100vw; /* Ekran genişliği */
-        height: auto; /* Ekran yüksekliği */
+        /* height: auto; Ekran yüksekliği */
     }
     #page-2 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-3 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-4 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-5 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-6 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-7 {
         background-image: url('images/07.png');
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
 
     .menu-title-container {
@@ -944,34 +944,34 @@ h2 {
 
     #page-1 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-2 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
         background-position: calc(50% - 70px) center; /* Hafif sola kaydırma */
     }
     #page-3 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-4 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-5 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
     }
     #page-6 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
 
         background-position: calc(52% - 100px) center; /* Hafif sola kaydırma */ 
     }
     #page-7 {
         width: 100vw; /* Ekran genişliği */
-        height: 100%; /* Ekran yüksekliği */
+        /* height: 100%; Ekran yüksekliği */
         background-position: calc(53% - 100px) center; /* Hafif sola kaydırma */ 
     }
     
