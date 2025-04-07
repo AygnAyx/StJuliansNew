@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Galada', sans-serif; /* H2 etiketine özel yazı tipi uygula */
+    font-family: 'Pattaya', sans-serif;
     font-weight: 200; /* Biraz daha kalın ama hala ince */
     font-size: 38px;
 }
@@ -31,57 +31,23 @@ h2 {
     padding: 0px 20px;
 }
 
+.mobile-page{
+    margin: 40px 0px 120px 0px;
+}
+
 .menu-item-container {
     width: 100vw;
     display: flex;
     flex-wrap: wrap; /* Küçük ekranlarda alt alta sıralanmasını sağladım */
     align-items:flex-start;
-
-    /*align-items: stretch; /* İçerikleri yatayda ortalar */
-    /*
-    gap: 50px;
-    column-gap: 200px;
-    margin-top: 10px;
-    justify-content: stretch; /* Mobilde ortalamak için */
 }
 
-.menu-left-container {
-    width: 80%; /* Önceki değer daha küçükse arttır */
-    max-width: 900px; /* Daha büyük ekranlar için sınır koy */
-    margin: 0 auto; /* Ortalamak için */
-}
+    .menu-left-container {
+        width: 80%; /* Önceki değer daha küçükse arttır */
+        max-width: 900px; /* Daha büyük ekranlar için sınır koy */
+        margin: 0 auto; /* Ortalamak için */
+    }
 
-/*
-.menu-left-container, .menu-right-container {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    align-items: center;
-}
-*/
-
-/*
-.menu-item {
-    width: 100%;
-    font-family: 'Alata', cursive;
-    color: #f3c365;
-    text-shadow: 1.5px 1.5px 1px black, 0 0 25px rgba(255, 208, 0, 0.37), 0 0 5px rgba(255, 196, 0, 0.342);
-    letter-spacing: 1px;
-    font-size: 23px;
-    padding: 15px 0px;
-    text-align: left;
-    max-width: 400px;
-    transition: transform 0.3s ease-in-out;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-}
-*/
-.mobile-page{
-    margin: 40px 0px 120px 0px;
-}
 
 .menu-item {
     font-family: 'Alata', sans-serif;
@@ -91,13 +57,11 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-
 .menu-item span {
     font-size: 18px;
     display: block;
     cursor: pointer; /* İmleci el ikonuna dönüştürür */
 }
-
 .menu-item p {
     margin: 0;
     width: 100%;
@@ -124,9 +88,7 @@ h2 {
             box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
             flex-shrink: 0; /* Kutu boyutunun küçülmesini engeller */
         }
-
         .menu-image-col p {
-            font-family: 'Haettenschweiler', Courier;
             letter-spacing: 3px;
             margin-left: 5px;
             margin-top: 15px;
@@ -138,8 +100,6 @@ h2 {
             width: 100%;
             font-size: 20px;
         }
-
-        /* İçindeki resim sabit 80x80 olarak kalacak */
         .menu-image img {
             cursor: pointer; /* İmleci el ikonuna dönüştürür */
             width: 100%; /* Kutunun tamamını kaplaması için */
@@ -148,25 +108,9 @@ h2 {
 
             transition: transform 0.3s ease-in-out; /* Animasyonu yumuşatır */
         }
-
         .menu-image img:hover {
             transform: scale(1.1); /* Resmi %10 büyüt */
         }
-
-        .menu-image-col p {
-            font-family: 'Haettenschweiler', Courier;
-            letter-spacing: 3px;
-            margin-left: 5px;
-            margin-top: 15px;
-            width: 100%;
-            font-size: 28px;
-        }
-        .menu-image-col span {
-            margin-top: 15px;
-            width: 100%;
-            font-size: 20px;
-        }
-
 
         .menu-text-container {
             flex-grow: 1; /* Yazının daha fazla alan kaplamasını sağlar */
@@ -201,27 +145,6 @@ h2 {
                 display: block;
                 margin-top: 5px;
             }
-/*
-.menu-price {
-    margin-left: auto; 
-    font-weight: bold;
-    color: #f3c365;
-    font-size: 23px;
-    white-space: nowrap; 
-    padding-right: 0px;
-}
-
-.hidden-content {
-    font-family: 'Alata', cursive;;
-    display: flex;
-    margin-top: 5px;
-    font-size: 16px;
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-*/
 
 .divider {
     height: 1px;
@@ -232,12 +155,7 @@ h2 {
 }
 
 
-
-
-
-
-
-/* Menü içerikleri */
+/* Menü içerikleri 2 */
 .menu-title-container2 h2 {
     font-size: 42px;
     letter-spacing: 2px;
@@ -262,89 +180,81 @@ h2 {
     align-items: stretch; /* İçerikleri yatayda ortalar */
 }
 
-.menu-left-container2, .menu-right-container2 {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    align-items: center; /* İçerikleri yatayda ortalar */
-    margin-left: 40px   ;
-}
+    .menu-left-container2, .menu-right-container2 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center; /* İçerikleri yatayda ortalar */
+        margin-left: 40px   ;
+    }
 
-/* Başlık ve resmin yan yana durması */
-.menu-header2 {
-    display: flex;
-    align-items: center;
-}
+        .menu-item2 {
+            font-weight: 600;
+            width: 100%;
+            font-family: 'Alata', cursive;
+            color: #f3c365;
+            text-shadow: 1.5px 1.5px 2px black;
+            letter-spacing: 1px;
+            font-size: 23px;
+            padding: 15px 0px;
+            text-align: left;
+            max-width: 400px; /* Küçük ekranlarda genişliğin taşmasını engeller */
+            transition: transform 0.3s ease-in-out;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Elemanları dikeyde ortala */
+            gap: 20px; /* Kutucuk ve metin arasında boşluk */
+        }
+        .menu-item2 p {
+            margin: 0;
+            width: 100%;
+            font-size: 20px;
+        }
+        .menu-item2 span{
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
 
-.menu-price2 {
-    margin-left: auto; /* Fiyatı en sağa iter */
-    font-weight: bold;
-    color: #f3c365;
-    font-size: 23px;
-    white-space: nowrap; /* Fiyatın alt satıra düşmesini engeller */
-    padding-right: 0px; /* Fiyatı sağa kaydırır */
-}
+            .menu-header2 {
+                display: flex;
+                align-items: center;
+            }
 
-.menu-item2 {
-    font-weight: 600;
-    /* width: 400px; */
-    width: 100%;
-    font-family: 'Alata', cursive;
-    color: #f3c365;
-    text-shadow: 1.5px 1.5px 2px black;
-    letter-spacing: 1px;
-    font-size: 23px;
-    padding: 15px 0px;
-    text-align: left;
-    max-width: 400px; /* Küçük ekranlarda genişliğin taşmasını engeller */
-    transition: transform 0.3s ease-in-out;
+                .menu-image2 {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 15px; /* Köşeleri yumuşatma */
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid #ffffff;
+                    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+                    flex-shrink: 0; /* Kutu boyutunun küçülmesini engeller */
+                    margin-right: 10px;
+                }
+                .menu-image2 img {
+                    cursor: pointer; /* İmleci el ikonuna dönüştürür */
+                    width: 100%; /* Kutunun tamamını kaplaması için */
+                    height: 100%;
+                    object-fit: cover; /* Taşmadan kutuya sığdır */
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Elemanları dikeyde ortala */
-    gap: 20px; /* Kutucuk ve metin arasında boşluk */
-}
+                    transition: transform 0.3s ease-in-out; /* Animasyonu yumuşatır */
+                }
+                .menu-image2 img:hover {
+                    transform: scale(1.1); /* Resmi %10 büyüt */
+                }
 
-/* Kare şeklindeki resim kutusu */
-.menu-image2 {
-    width: 80px;
-    height: 80px;
-    border-radius: 15px; /* Köşeleri yumuşatma */
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #ffffff;
-    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
-    flex-shrink: 0; /* Kutu boyutunun küçülmesini engeller */
-    margin-right: 10px;
-}
-
-/* İçindeki resim sabit 80x80 olarak kalacak */
-.menu-image2 img {
-    cursor: pointer; /* İmleci el ikonuna dönüştürür */
-    width: 100%; /* Kutunun tamamını kaplaması için */
-    height: 100%;
-    object-fit: cover; /* Taşmadan kutuya sığdır */
-
-    transition: transform 0.3s ease-in-out; /* Animasyonu yumuşatır */
-}
-
-.menu-image2 img:hover {
-    transform: scale(1.1); /* Resmi %10 büyüt */
-}
-
-.menu-item2 p {
-    margin: 0;
-    width: 100%;
-    font-size: 20px;
-}
-
-.menu-item2 span{
-    font-size: 20px;
-    cursor: pointer;
-    
-}
+            .menu-price2 {
+                margin-left: auto; /* Fiyatı en sağa iter */
+                font-weight: bold;
+                color: #f3c365;
+                font-size: 23px;
+                white-space: nowrap; /* Fiyatın alt satıra düşmesini engeller */
+                padding-right: 0px; /* Fiyatı sağa kaydırır */
+            }
 
 .divider2 {
     height: 1px;
@@ -353,12 +263,7 @@ h2 {
     background-color: #f3c365;
 }
 
-
-
-
-
-
-/*other*/
+/*other
 .menu-buttons {
     position: fixed;
     top: 10px;
@@ -371,7 +276,6 @@ h2 {
     border-radius: 10px;
     z-index: 1000;
 }
-
 .menu-buttons button {
     padding: 10px 15px;
     border: none;
@@ -381,10 +285,11 @@ h2 {
     cursor: pointer;
     border-radius: 5px;
 }
-
 .menu-buttons button:hover {
     background: #e09c3c;
 }
+*/
+
 
 /* Page işlemleri */
 .page {
@@ -395,22 +300,8 @@ h2 {
     font-size: 2em;
     background-size: cover;
     background-position: center;
-
     min-height: 100vh; /* İçeriğin tam görünmesini sağlar */
     flex-direction: column;
-}
-
-
-/* Page İşlemleri */
-#page-0 {
-    background-color: #fdf7eb; /* Arka plan rengini belirledik */
-    width: 100vw; /* Ekran genişliği */
-    height: auto; /* Ekran yüksekliği */
-    display: flex;
-
-    flex-direction: column; /* Elemanları dikey hizalar */
-    justify-content: space-between; /* Elemanlar arasında boşluk bırakır */
-    align-items: center; /* Elemanları yatayda ortalar */
 }
 
 .page-container {
@@ -418,7 +309,6 @@ h2 {
     height: auto;
     display: flex;
     justify-content: center; /* Logoyu ortalar */
-
     align-items: flex-start; /* Üste hizalar */
 }
 
@@ -428,6 +318,15 @@ h2 {
     object-fit: contain; /* En-boy oranını koruyarak görseli sığdırır */
 }
 
+#page-0 {
+    background-color: #fdf7eb; /* Arka plan rengini belirledik */
+    width: 100vw; /* Ekran genişliği */
+    height: auto; /* Ekran yüksekliği */
+    display: flex;
+    flex-direction: column; /* Elemanları dikey hizalar */
+    justify-content: space-between; /* Elemanlar arasında boşluk bırakır */
+    align-items: center; /* Elemanları yatayda ortalar */
+}
 #page-1 {
     background-color: #fdf7eb;
     width: 100vw; /* Ekran genişliği */
@@ -437,13 +336,10 @@ h2 {
     color: #ffffff; /* Altın sarısı renk */
     padding: 0px 20px;
     display: flex;
-
-    /* flex-direction: column; Yatayda ortalama yerine dikey hizalama */
     align-items: center;
     flex-direction: column; /* İçeriği dikeyde hizalar */
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
-
 #page-2 {
     background-color: #fdf7eb;
     width: 100vw; /* Ekran genişliği */
@@ -453,13 +349,10 @@ h2 {
     color: #ffffff; /* Altın sarısı renk */
     padding: 0px 20px;
     display: flex;
-
-    /* flex-direction: column; Yatayda ortalama yerine dikey hizalama */
     align-items: center;
     flex-direction: column; /* İçeriği dikeyde hizalar */
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
-
 #page-3 {
     background-color: #fdf7eb;
     width: 100vw; /* Ekran genişliği */
@@ -469,13 +362,10 @@ h2 {
     color: #ffffff; /* Altın sarısı renk */
     padding: 0px 20px;
     display: flex;
-
-    /* flex-direction: column; Yatayda ortalama yerine dikey hizalama */
     align-items: center;
     flex-direction: column; /* İçeriği dikeyde hizalar */
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
-
 #page-4 {
     background-color: #fdf7eb;
     width: 100vw; /* Ekran genişliği */
@@ -485,13 +375,10 @@ h2 {
     color: #7b024d; /* Altın sarısı renk */
     padding: 0px 20px;
     display: flex;
-
-    /* flex-direction: column; Yatayda ortalama yerine dikey hizalama */
     align-items: center;
     flex-direction: column; /* İçeriği dikeyde hizalar */
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
-
 #page-5 {
     background-image: url('images/06.2.png'); /* Arka plan resmi */
     width: 100vw; /* Ekran genişliği */
@@ -501,13 +388,10 @@ h2 {
     color: #ffffff; /* Altın sarısı renk */
     padding: 0px 20px;
     display: flex;
-
-    /* flex-direction: column; Yatayda ortalama yerine dikey hizalama */
     align-items: center;
     flex-direction: column; /* İçeriği dikeyde hizalar */
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
-
 #page-6 {
     background-image: url('images/05.png'); /* Arka plan resmi */
     width: 100vw; /* Ekran genişliği */
@@ -517,8 +401,6 @@ h2 {
     color: #ffffff; /* Altın sarısı renk */
     padding: 0px 20px;
     display: flex;
-
-    /* flex-direction: column; Yatayda ortalama yerine dikey hizalama */
     align-items: center;
     flex-direction: column; /* İçeriği dikeyde hizalar */
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
@@ -532,78 +414,16 @@ h2 {
     color: #ffffff; /* Altın sarısı renk */
     padding: 0px 20px;
     display: flex;
-
-    /* flex-direction: column; Yatayda ortalama yerine dikey hizalama */
     align-items: center;
     flex-direction: column; /* İçeriği dikeyde hizalar */
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
-/* Page-8 Genel Stil */
 #page-8 {
     background-color: #f5efe2;
     padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* QR Kodları */
-.qr-left, .qr-right {
-    text-align: center;
-    width: 25%;
-    min-width: 250px; /* Taşmayı önlemek için */
-}
-
-.qr-right a:link, 
-.qr-right a:visited, 
-.qr-right a:hover, 
-.qr-right a:active,
-.qr-left a:link, 
-.qr-left a:visited, 
-.qr-left a:hover, 
-.qr-left a:active {
-    text-decoration: none !important; /* Kesinlikle altı çizgiyi kaldır */
-    color: inherit !important; /* Renk değişimini engelle */
-}
-
-.qr-left img, .qr-right img {
-    width: 220px;  /* QR kodları büyütüldü */
-    height: 220px;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.qr-left img:hover, .qr-right img:hover {
-    transform: scale(1.1);
-}
-
-/* Instagram Yazısı */
-.instagram-text {
-    font-family: 'Galada', sans-serif;
-    font-size: 28px;
-    color: black;
-    margin-top: 10px;
-}
-
-/* Konum Adresi */
-.address-text {
-    font-family: 'KaushanScript', cursive;
-    font-size: 21px;
-    color: black;
-    margin-top: 10px;
-    line-height: 1.5;
-}
-
-/* Orta Logo */
-.logo-container {
-    width: 40%;
-    min-width: 350px;
-    text-align: center;
-}
-
-.logo-container img {
-    width: 350px;
-    height: auto;
 }
 
 /* Üst Kısım (Hero) Stili */
@@ -619,7 +439,6 @@ h2 {
     flex-direction: column;
     overflow: hidden; /* Taşmaları önler */
 }
-
 /* Blur efekti ekleyen saydam katman */
 .sidepage-hero::before {
     content: "";
@@ -634,13 +453,11 @@ h2 {
     filter: blur(1px); /* Blur efekti */
     z-index: 1;
 }
-
 /* Üst kısım logo */
 .sidepage-hero a {
     position: relative;
     z-index: 2; /* Logonun üstte kalmasını sağlar */
 }
-
 .sidepage-hero a img {
     width: 400px;
     height: auto;
@@ -656,58 +473,57 @@ h2 {
     padding: 40px 0;
 }
 
-/* İlk dört butonu 2 sütun yap */
-.menu-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
+    /* İlk dört butonu 2 sütun yap */
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
-/* Butonların temel tasarımı */
-.button-container, .full-width-button {
-    position: relative;
-    width: 400px;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    cursor: pointer;
-}
+        /* Butonların temel tasarımı */
+        .button-container, .full-width-button {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        /* Tam genişlikte butonlar */
+        .full-width-button {
+            width: 820px; /* İki sütunun toplam genişliği kadar */
+            height: 250px;
+        }
 
-/* Tam genişlikte butonlar */
-.full-width-button {
-    width: 820px; /* İki sütunun toplam genişliği kadar */
-    height: 250px;
-}
+            /* Çerçeve efekti */
+            .middle-square {
+                background-color: #0000002f;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border: 2px solid rgba(255, 255, 255, 0.8);
+                border-radius: 10px;
+                box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+                transition: background-color 0.3s ease-in-out;
+            }
 
-/* Çerçeve efekti */
-.middle-square {
-    background-color: #0000002f;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border: 2px solid rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease-in-out;
-}
-
-/* Yazı stilleri */
-.text-square {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fdf7eb;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    transition: transform 0.2s ease-in-out;
-}
-.text-square h2{
-    white-space: nowrap;
-}
+                /* Yazı stilleri */
+                .text-square {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: #fdf7eb;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+                    text-align: center;
+                    transition: transform 0.2s ease-in-out;
+                }
+                .text-square h2{
+                    white-space: nowrap;
+                }
 
 .middle-square:hover {
     background-color: #ffe60000;
@@ -717,6 +533,62 @@ h2 {
 .middle-square:hover .text-square,
 .text-square:hover {
     animation: shake2 0.3s ease-in-out;
+}
+
+
+/* QR Kodları */
+.qr-left, .qr-right {
+    text-align: center;
+    width: 25%;
+    min-width: 250px; /* Taşmayı önlemek için */
+}
+.qr-right a:link, 
+.qr-right a:visited, 
+.qr-right a:hover, 
+.qr-right a:active,
+.qr-left a:link, 
+.qr-left a:visited, 
+.qr-left a:hover, 
+.qr-left a:active {
+    text-decoration: none !important; /* Kesinlikle altı çizgiyi kaldır */
+    color: inherit !important; /* Renk değişimini engelle */
+}
+.qr-left img, .qr-right img {
+    width: 220px;  /* QR kodları büyütüldü */
+    height: 220px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.qr-left img:hover, .qr-right img:hover {
+    transform: scale(1.1);
+}
+
+/* Instagram Yazısı */
+.instagram-text {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 28px;
+    color: black;
+    margin-top: 10px;
+}
+
+/* Konum Adresi */
+.address-text {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 21px;
+    color: black;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Orta Logo */
+.logo-container {
+    width: 40%;
+    min-width: 350px;
+    text-align: center;
+}
+.logo-container img {
+    width: 350px;
+    height: auto;
 }
 
 /* Butonun başlangıç stili */
@@ -736,30 +608,26 @@ h2 {
     cursor: pointer;
     z-index: 999;
 }
-
 /* Buton içindeki görsel */
 .floating-button img {
     width: 67px;
     height: 67px;
 }
-
 /* Hover efekti */
 .floating-button:hover {
     transform: scale(1.1);
     background-color: #fae99d;
 }
-
 /* Tooltip (Ana Sayfa yazısı) */
 .floating-button::after {
     content: "Ana Sayfa"; 
     position: absolute;
-    font-family: 'KaushanScript', cursive;
+    font-family: 'Pattaya', sans-serif;
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0);
-    text-shadow: 1.2px 1.2px 2px rgba(0, 0, 0, 0.904); /* Blur azaltıldı */
-    color: white;
+    color: rgb(0, 109, 18);
     padding: 3px 5px;
     font-size: 16px;
     border-radius: 3px;
@@ -768,7 +636,6 @@ h2 {
     visibility: hidden;
     transition: opacity 0.3s ease-in-out, visibility 0.3s;
 }
-
 /* Hover olunca yazıyı göster */
 .floating-button:hover::after {
     opacity: 1;
@@ -791,35 +658,30 @@ h2 {
     z-index: 999;
     text-decoration: none;
 }
-
 /* Instagram logosu */
 .instagram-floating-button img {
     width: 65px;
     height: 65px;
 }
-
 /* Hover efekti */
 .instagram-floating-button:hover {
     transform: scale(1.1);
 }
-
 /* Tooltip (@stjulianmersin Yazısı) */
 .instagram-floating-button::after {
-    content: "@Stjulianmersin"; 
+    content: "@StJulianMersin"; 
     position: absolute;
-    font-family: 'KaushanScript', cursive;
+    font-family: 'Pattaya', sans-serif;
     top: -30px; /* Üstte çıkması için */
     left: 50%;
     transform: translateX(-50%);
-    text-shadow: 1.2px 1.2px 2px rgba(0, 0, 0, 0.9);
-    color: white;
+    color: rgb(228, 83, 0);
     font-size: 16px;
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease-in-out;
 }
-
 /* Hover olunca tooltip görünsün */
 .instagram-floating-button:hover::after {
     opacity: 1;
@@ -827,17 +689,18 @@ h2 {
 }
 
 
-
 /* Tıklanınca animasyon uygulanacak sınıf */
 .fly-away {
     animation: flyAway 0.7s ease-in-out forwards;
 }
-
+/*
 .flex-container {
     display: flex;
     flex-direction: row;
 }
-/* Modal arkaplanı */
+*/
+
+/* Modal Penceresi arkaplanı (Menü Resim)*/
 .modal {
     display: none;
     position: fixed;
@@ -851,46 +714,46 @@ h2 {
     z-index: 1000;
 }
 
-/* Modal içeriği */
-.modal-content-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 0.3s ease-in-out;
-}
+    /* Modal içeriği */
+    .modal-content-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 0.3s ease-in-out;
+    }
 
-/* Resmin kendisi */
-.modal-image {
-    max-width: 90vw;
-    max-height: 90vh;
-    border-radius: 10px;
-}
+        /* Resmin kendisi */
+        .modal-image {
+            max-width: 90vw;
+            max-height: 90vh;
+            border-radius: 10px;
+        }
 
-/* Kapatma butonu */
-.close-button {
-    position: absolute;
-    top: -12px;
-    right: -12px;
-    background: #f38a49;
-    border: none;
-    color: white;
-    font-size: 18px;
-    padding: 8px 12px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s;
-}
+        /* Kapatma butonu */
+        .close-button {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            background: #f38a49;
+            border: none;
+            color: white;
+            font-size: 18px;
+            padding: 8px 12px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .close-button:hover {
+            background: #d56d33;
+        }
 
-.close-button:hover {
-    background: #d56d33;
-}
 
-/* Animasyon efekti */
+/* Animasyon efektleri */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -902,16 +765,6 @@ h2 {
     }
 }
 
-/* Çalkalanma animasyonu */
-@keyframes shake {
-    0%      { transform: translateX(0);}
-    25%     { transform: translateX(-5px); }    /* Sol kaydır */
-    50%     { transform: translateX(5px); }     /* Sağ kaydır */
-    75%     { transform: translateX(-5px); }    /* Sol kaydır */
-    100%    { transform: translateX(0); }       /* Sonunda geri döner */
-}
-
-/* Sallanma animasyonu */
 @keyframes shake2 {
     0%   { transform: translate(-50%, -50%) rotate(2deg); }
     25%  { transform: translate(-52%, -50%) rotate(-2deg); }
@@ -919,50 +772,11 @@ h2 {
     75%  { transform: translate(-48%, -50%) rotate(-2deg); }
     100% { transform: translate(-50%, -50%) rotate(2deg); }
 }
-
-@keyframes shake3 {
-    0%      { transform: translateX(0); }
-    25%     { transform: translateX(-3px) rotate(-1deg); }
-    50%     { transform: translateX(3px) rotate(1deg); }
-    75%     { transform: translateX(-2px) rotate(-0.5deg); }
-    100%    { transform: translateX(0); }
-}
-@keyframes wobble {
-    0% { transform: rotate(0deg) translateY(0px); }
-    25% { transform: rotate(-2deg) translateY(-2px); }
-    50% { transform: rotate(2deg) translateY(2px); }
-    75% { transform: rotate(-1deg) translateY(-1px); }
-    100% { transform: rotate(0deg) translateY(0px); }
-}   
+  
 @keyframes flyAway {
     0% { transform: scale(1) translateY(0); opacity: 1; }
     50% { transform: scale(1.2) translateY(-100px); opacity: 0.5; }
     100% { transform: scale(0) translateY(-200px); opacity: 0; }
-}
-
-@font-face {
-    font-family: 'Amoresa'; /* Özel yazı tipi ismi */
-    src: url('font/Amoresa.ttf') format('truetype'); /* Yazı tipi dosyasına yol */
-}
-@font-face {
-    font-family: 'Haettenschweiler'; /* Özel yazı tipi ismi */
-    src: url('font/Haettenschweiler.ttf') format('truetype'); /* Yazı tipi dosyasına yol */
-}
-@font-face {
-    font-family: 'Alata'; /* Özel yazı tipi ismi */
-    src: url('font/Alata-Regular.ttf') format('truetype'); /* Yazı tipi dosyasına yol */
-}
-@font-face {
-    font-family: 'Pattaya'; /* Özel yazı tipi ismi */
-    src: url('font/Pattaya-Regular.ttf') format('truetype'); /* Yazı tipi dosyasına yol */
-}
-@font-face {
-    font-family: 'Galada'; /* Özel yazı tipi ismi */
-    src: url('font/Galada-Regular.ttf') format('truetype'); /* Yazı tipi dosyasına yol */
-}
-@font-face {
-    font-family: 'KaushanScript';
-    src: url('font/KaushanScript.ttf') format('truetype');
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -999,6 +813,7 @@ h2 {
         width: 100vw; /* Ekran genişliği */
         height: 100%; /* Ekran yüksekliği */
     }
+
     .menu-title-container {
         margin-bottom: -20px; /* Başlık ile içerik arasındaki boşluğu küçült */
         padding-bottom: 0; /* Eğer varsa ekstra boşluğu kaldır */
@@ -1019,6 +834,7 @@ h2 {
         margin-top: 0; /* Menü içeriğini yukarı çek */
         padding-top: 0;
     }
+
     .divider {
         width: 90%;
     }
@@ -1033,7 +849,6 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
-
     .qr-left, .logo-container, .qr-right {
         width: 100%;
         text-align: center;
@@ -1054,48 +869,41 @@ h2 {
         background-size: cover;
         background-position: center;
     }
-    
     .sidepage-hero a {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    
     .sidepage-hero a img {
         width: 70%; /* Logoyu büyültmek/küçültmek için ayarlayın */
         height: auto;
         display: block;
         margin: 0 auto; /* Logo tam ortada hizalanır */
     }
-
+/*
     .btn-language, .btn-search {
         top: 12px;
         padding: 7px 12px;
         font-size: 13px;
     }
-
+*/
     .button-container {
         height: 400px;
         width: 49vw; /* Butonlar orta boyut için optimize edildi */
     }
-
     .full-width-button {
         width: 100vw;
     }
-
     .text-square {
         font-size: 24px;
     }
-
     .mobile-page{
         margin: 20px 0px 40px 0px;
     }
-
     .mobile-page2{
         margin: 20px 0px 40px 0px;
     }
-    
     .menu-left, .menu-right {
         flex-direction: column;   
     }
@@ -1104,18 +912,15 @@ h2 {
         width: 100vw;
         
     }
-
     #page-0 {
         width: 100vw; /* Ekran genişliği */
         height: 100%; /* Ekran yüksekliği */
     }
-    
     #logo {
         width: 50vw; /* Logonun genişliği */
         height: auto; /* Orijinal yüksekliği korur */
         object-fit: contain; /* En-boy oranını koruyarak görseli sığdırır */
     }
-
     .menu-container {
         transform: scale(0.8);
         display: flex;
@@ -1135,10 +940,8 @@ h2 {
     #page-2 {
         width: 100vw; /* Ekran genişliği */
         height: 100%; /* Ekran yüksekliği */
-
         background-position: calc(50% - 70px) center; /* Hafif sola kaydırma */
     }
-
     #page-3 {
         width: 100vw; /* Ekran genişliği */
         height: 100%; /* Ekran yüksekliği */
@@ -1160,7 +963,6 @@ h2 {
     #page-7 {
         width: 100vw; /* Ekran genişliği */
         height: 100%; /* Ekran yüksekliği */
-
         background-position: calc(53% - 100px) center; /* Hafif sola kaydırma */ 
     }
     
@@ -1215,7 +1017,6 @@ h2 {
         width: 50px;
         height: 50px;
     }
-
     .floating-button {
         bottom: 23px;
         right: 25px;
@@ -1229,11 +1030,11 @@ h2 {
     }
     .instagram-floating-button::after {
         content: ""; 
-        font-family: 'KaushanScript', cursive;
+        font-family: 'Pattaya', sans-serif;
     }
     .floating-button::after {
         content: ""; 
-        font-family: 'KaushanScript', cursive;
+        font-family: 'Pattaya', sans-serif;
     }
 }
 
@@ -1253,27 +1054,25 @@ h2 {
         background-size: cover;
         background-position: center;
     }
-    
     .sidepage-hero a {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    
     .sidepage-hero a img {
         width: 70%; /* Logoyu büyültmek/küçültmek için ayarlayın */
         height: auto;
         display: block;
         margin: 0 auto; /* Logo tam ortada hizalanır */
     }
-
+/*
     .btn-language, .btn-search {
         top: 10px;
         padding: 6px 10px;
         font-size: 12px;
     }
-
+*/
     .button-container{
         height: 200px;
         width: 49vw; /* Mobilde daha küçük butonlar */
@@ -1282,7 +1081,6 @@ h2 {
         height: 200px;
         width: 100vw;
     }
-
     .text-square {
         font-size: 16px;
     }
