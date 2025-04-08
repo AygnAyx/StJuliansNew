@@ -408,6 +408,29 @@ h2 {
 }
 
 /* Üst Kısım (Hero) Stili */
+.sidepage-hero2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden; /* Taşmaları önler */
+}
+.sidepage-hero2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Siyah ve %50 saydamlık */
+}
+
+/* Üst Kısım (Hero) Stili */
 .sidepage-hero {
     position: relative;
     width: 100%;
@@ -832,6 +855,18 @@ h2 {
 }
 
 @media (max-width: 800px) {
+    .sidepage-hero2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 250px; /* Yükseklik isteğe göre ayarlanabilir */
+        background-size: cover;
+        background-position: center;
+    }
     .sidepage-hero {
         display: flex;
         flex-direction: column;
@@ -892,10 +927,10 @@ h2 {
     }
     .menu-container {
         transform: scale(0.8);
+        margin-top: -40px;
         display: flex;
         width: 100%;
         min-height: 40vh; /* Butonlar için minimum yükseklik ayarlanır */
-        align-items: flex-start; /* Butonlar üst kısma yerleştirilir */
         flex-wrap: wrap; /* Butonların satırlara geçmesini sağlar */
         justify-content: center; /* Butonları ortalar */
         align-content: flex-start; /* Satırlar arasındaki boşluğu yukarı alır */
@@ -1010,6 +1045,18 @@ h2 {
 @media (max-width: 600px) {
     .menu-title-container2 h2 {
         font-size: 34px;
+    }
+    .sidepage-hero2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 250px; /* Yükseklik isteğe göre ayarlanabilir */
+        background-size: cover;
+        background-position: center;
     }
     .sidepage-hero {
         display: flex;
