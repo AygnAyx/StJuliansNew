@@ -113,7 +113,6 @@ h2 {
             width: 100%; /* Kutunun tamamını kaplaması için */
             height: 100%;
             object-fit: cover; /* Taşmadan kutuya sığdır */
-
             transition: transform 0.3s ease-in-out; /* Animasyonu yumuşatır */
         }
         .menu-image img:hover {
@@ -176,13 +175,10 @@ h2 {
 
 .menu-item-container2 {
     width: 100vw;
-    /* width: 100%; */
-    /* height: 100vh; */
     display: flex;
     gap: 50px;
     column-gap: 200px;
     margin-top: 10px;
-
     flex-wrap: wrap; /* Küçük ekranlarda alt alta sıralanmasını sağladım */
     justify-content: stretch; /* Mobilde ortalamak için */
     align-items: stretch; /* İçerikleri yatayda ortalar */
@@ -208,7 +204,6 @@ h2 {
             text-align: left;
             max-width: 400px; /* Küçük ekranlarda genişliğin taşmasını engeller */
             transition: transform 0.3s ease-in-out;
-        
             display: flex;
             flex-direction: column;
             align-items: flex-start; /* Elemanları dikeyde ortala */
@@ -782,17 +777,13 @@ h2 {
 
     .menu-title-container {
         margin-bottom: -20px; /* Başlık ile içerik arasındaki boşluğu küçült */
-        padding-bottom: 0; /* Eğer varsa ekstra boşluğu kaldır */
     }
     .menu-item-container {
         transform: scale(0.9);
         gap: 80px;
-        margin-top: 0; /* Menü içeriğini yukarı çek */
-        padding-top: 0;
     }
     .menu-title-container2 {
         margin-bottom: -20px; /* Başlık ile içerik arasındaki boşluğu küçült */
-        padding-bottom: 0; /* Eğer varsa ekstra boşluğu kaldır */
     }
     .menu-item-container2 {
         transform: scale(0.9);
@@ -839,16 +830,8 @@ h2 {
         background-position: center;
     }
     .sidepage-hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         text-align: center;
-        position: relative;
-        width: 100%;
         height: 250px; /* Yükseklik isteğe göre ayarlanabilir */
-        background-size: cover;
-        background-position: center;
     }
     .sidepage-hero a {
         display: flex;
@@ -883,10 +866,6 @@ h2 {
         flex-direction: column;   
     }
 
-    .page {
-        width: 100vw;
-        
-    }
     #logo {
         width: 50vw; /* Logonun genişliği */
         height: auto; /* Orijinal yüksekliği korur */
@@ -941,15 +920,6 @@ h2 {
         gap: 20px;
     }
 
-    .menu-item {
-        transform: scale(1);
-        width: 100%;
-    }
-    .menu-item2 {
-        transform: scale(1);
-        width: 100%;
-    }
-
     .divider {
         width: 90%;
     }
@@ -961,13 +931,13 @@ h2 {
         width: 45px;
         height: 45px;
     }
-    .floating-button img {
-        width: 50px;
-        height: 50px;
-    }
     .floating-button {
         bottom: 23px;
         right: 25px;
+        width: 50px;
+        height: 50px;
+    }
+    .floating-button img {
         width: 50px;
         height: 50px;
     }
@@ -978,11 +948,9 @@ h2 {
     }
     .instagram-floating-button::after {
         content: ""; 
-        font-family: 'Pattaya', sans-serif;
     }
     .floating-button::after {
         content: ""; 
-        font-family: 'Pattaya', sans-serif;
     }
 }
 
@@ -990,50 +958,12 @@ h2 {
     .menu-title-container2 h2 {
         font-size: 34px;
     }
-    .sidepage-hero2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        position: relative;
-        width: 100%;
-        height: 250px; /* Yükseklik isteğe göre ayarlanabilir */
-        background-size: cover;
-        background-position: center;
-    }
-    .sidepage-hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        position: relative;
-        width: 100%;
-        height: 250px; /* Yükseklik isteğe göre ayarlanabilir */
-        background-size: cover;
-        background-position: center;
-    }
-    .sidepage-hero a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .sidepage-hero a img {
-        width: 70%; /* Logoyu büyültmek/küçültmek için ayarlayın */
-        height: auto;
-        display: block;
-        margin: 0 auto; /* Logo tam ortada hizalanır */
-    }
-
     .button-container{
         height: 200px;
         width: 49vw; /* Mobilde daha küçük butonlar */
     }
     .full-width-button {
         height: 200px;
-        width: 100vw;
     }
     .text-square {
         font-size: 16px;
