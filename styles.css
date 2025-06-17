@@ -356,7 +356,6 @@ h2 {
     justify-content: flex-start; /* İçeriği üst kısımda tutar */
 }
 #page-5 {
-    background-image: url('images/06.2.avif'); /* Arka plan resmi */
     width: 100vw; /* Ekran genişliği */
     height: auto    ; /* Ekran yüksekliği */
     background-size: cover;
