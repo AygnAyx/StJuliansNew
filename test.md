@@ -1,1 +1,1576 @@
-merhaba
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="St. Julian Restoran Menüsü – Napolitan pizzalardan tatlılara kadar eşsiz lezzetler. Mersin’in favori mekanı.">
+    <title>Restoran Menü</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.png" type="images/x-png">
+</head>
+<body>
+<!-- Sayfalar (Butonlarla) -->
+<div class="scroll-wrapper">
+    <div class="page-scroll">
+        <section id="page-0" class="page">
+            <!-- Üst Kısım -->
+            <div class="sidepage-hero" style="background-image: url('images/maincover/background-4.avif');">
+                <a href="#page-8">
+                    <img class="sidepage-hero__logo--l" src="images/logo-trans.png" alt="St Logo">
+                </a>
+            </div>
+            <div class="menu-container">
+                <!-- İlk dört buton (2 sütun) -->
+                <!-- Tam genişlikte butonlar -->
+                <!-- Panuzzo
+                <div class="full-width-button" style="background-image: url('images/Panuzzo.jpg');">
+                    <a href="#page-01">
+                        <div class="middle-square">
+                            <div class="text-square"><h2>Panuzzo</h2></div>
+                        </div>
+                    </a>
+                </div>
+                -->
+                <div class="full-width-button" style="background-image: url('images/menubutton/pizza-2.png');">
+                    <a href="#page-1">
+                        <div class="middle-square">
+                            <div class="text-square"><h2>Napolitan <br> Pizza</h2></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-grid">
+                    <div class="button-container" style="background-image: url('images/menubutton/makarna-1.png');">
+                        <a href="#page-2">
+                            <div class="middle-square">
+                                <div class="text-square"><h2>Makarna</h2></div>
+                            </div>
+                        </a>
+                    </div>
+                        <div class="button-container" style="background-image: url('images/menubutton/cokertme.png');">
+                            <a href="#page-3">
+                                <div class="middle-square">
+                                    <div class="text-square"><h2>Ala Carte</h2></div>
+                                </div>
+                            </a>
+                        </div>
+                    <div class="button-container" style="background-image: url('images/menubutton/wrap.png');">
+                        <a href="#page-4">
+                            <div class="middle-square">
+                                <div class="text-square"><h2>Wrapler</h2></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="button-container" style="background-image: url('images/menubutton/french-2.png');">
+                        <a href="#page-5">
+                            <div class="middle-square">
+                                <div class="text-square"><h2>French Fries</h2></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>        
+                <!-- Tam genişlikte butonlar
+                    <div class="full-width-button" style="background-image: url('images/menubutton/tea-coffee-1.png');">
+                        <a href="#page-6">
+                            <div class="middle-square">
+                                <div class="text-square"><h2>Kahve & Çay</h2></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="full-width-button" style="background-image: url('images/menubutton/tatlılar.png');">
+                        <a href="#page-05">
+                            <div class="middle-square">
+                                <div class="text-square"><h2>Tiramisu</h2></div>
+                            </div>
+                        </a>
+                    </div>
+                -->
+                <div class="full-width-button" style="background-image: url('images/menubutton/3in1.png');">
+                    <a href="#page-06">
+                        <div class="middle-square">
+                            <div class="text-square"><h2>3ü1 Arada</h2></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="full-width-button" style="background-image: url('images/menubutton/akdeniz.png');">
+                    <a href="#page-07">
+                        <div class="middle-square">
+                            <div class="text-square"><h2>Salatalar</h2></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="full-width-button" style="background-image: url('images/menubutton/drinks.png');">
+                    <a href="#page-8">
+                        <div class="middle-square">
+                            <div class="text-square"><h2>Soğuk İçecekler</h2></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Scroll boşluğu için ek boş alan -->
+                <div style="height: 100px;"></div>
+            </div>
+        </section>
+    </div>   
+    <!-- Menü Sayfaları -->
+    <!-- Panuzzo
+    <section id="page-01" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">
+                <div class="sidepage-hero2" style="background-image: url('images/Panuzzo.jpg');">
+                    <a aria-label="Tiramisu">
+                        <h2 style="color:#ffffff; border-bottom: 3px solid #ff4800">Panuzzo</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                    <div class="menu-left-container">
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #da8139;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Panuzzo/B01.png" alt="Sezar Salata" onclick="openModal('images/Pages-Menu/Panuzzo/B01.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Panuzzo/B01.png');"; style="color: #da8139;">Panuzzo</span>
+                                        <span class="menu-dots" style="border-color: #da8139;"></span>
+                                        <span class="menu-price" style="color: #da8139;" data-price="panuzzo.panuzzo"></span>
+                                    </div>
+                                    <span class="menu-desc">Mevsim yeşillikleri, mascarpone, ezine peyniri ve balsamik sosun taze ve zarif uyumu.</span>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div style="height: 100px;"></div>  
+                    <div class="menu-right-container" style="gap: 10px; margin-top: 40px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <section id="page-1" class="page">
+        <div class="page-scroll">
+            <!-- Üst Kısım -->
+            <div class="menu-title-container" style="padding-top: 0px;">
+                <div class="sidepage-hero2" style="background-image: url('images/cover/cover-1-2.avif');">
+                    <a aria-label="Pizzalar">
+                        <h2 style="color:#ffffff; border-bottom: 3px solid #f38a49">Napolitan Pizza</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                        <div class="menu-left-container" style="margin-bottom: 20px; gap: 60px; margin-top: 40px; background-color: #d0ffd7; box-shadow: 0 0 0 15px #d0ffd7; border-radius: 10px;">
+                        <!-- Başlık -->
+                        <div style="padding-left: 20px;">
+                            <h3 style="margin: 0 0 20px 0; font-size: 20px; color: #2cd15b; font-family: 'Pattaya', sans-serif; letter-spacing: 1px; font-weight: 300;">
+                                Şefin Spesiyali
+                            </h3>
+                        </div>
+                        <!-- Special Ürün 1 -->
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S01.png');"><b>Füme Pesto 3.4</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.pesto"></span>
+                                    </div>
+                                    <span class="menu-desc">Dana kaburga füme et ve pesto sosun mozzarella ile buluştuğu özel bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S01.png');"><b>Steak al Demi Glace 0.2</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.demiglace"></span>
+                                    </div>
+                                    <span class="menu-desc">Dana eti ve demi glace sosun kremalı taban üzerinde buluştuğu zengin bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S01.png');"><b>Pizza Çökertme 4.7</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.cokertme"></span>
+                                    </div>
+                                    <span class="menu-desc">Dana kavurma, kibrit patates ve özel soslarla hazırlanan farklı bir pizza deneyimi.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S01.png');"><b>Arpaccio 6.5</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.lady"></span>
+                                    </div>
+                                    <span class="menu-desc">Dana kavurma, Balkan kaymağı ve acı biber reçelinin eşsiz uyumuyla hazırlanan özel bir pizza.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S01.png');"><b>Mushroom Dream Pizza 3.8</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.mushroom"></span>
+                                    </div>
+                                    <span class="menu-desc">Üç farklı mantar çeşidi, trüflü zeytinyağı ve özel soslarla hazırlanan yoğun aromalı bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S01.png');"><b>Cheryy Cheryy Lady</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.lady"></span>
+                                    </div>
+                                    <span class="menu-desc">Füme et, mascarpone, taze fesleğen ve kiraz reçelinin sıra dışı uyumu.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S03.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S03.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S03.png');"><b>Alfredo Pizza</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.alfredo"></span>
+                                    </div>
+                                    <span class="menu-desc">Alfredo sos, jülyen tavuk, taze fesleğen, sarımsak, mantar, mascarpone ve mozzarella ile zenginleşen lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/11.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/11.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/11.png');"><b>Pizza Di Manzo</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.kavurma"></span>
+                                    </div>
+                                    <span class="menu-desc">Dana kavurma,Tütsülenmiş Mantar,Karamelize Soğan, Karabiber,Tuz.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Chef in the Garden 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/S02.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/S02.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/S02.png');"><b>Chef in the Garden</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.garden"></span>
+                                    </div>
+                                    <span class="menu-desc">Özel sos, mozzarella, kavrulmuş ıspanak, karamelize soğan ve ceviz-bal dokunuşuyla farklı bir tat.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        -->
+                        <!-- Pizza on Fire
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Pizza/NP01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Pizza/NP01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Pizza/NP01.png');"><b>Pizza on Fire</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="pizza.fire"></span>
+                                    </div>
+                                    <span class="menu-desc">Beyaz sosla harmanlanmış jülyen biftek, acı chili biber, taze soğan ve özel baharatlarla ateşli bir tat.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    <div class="menu-left-container">
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/04.png" alt="Margarita" onclick="openModal('images/Pages-Menu/Pizza/04.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"  onclick="openModal('images/Pages-Menu/Pizza/04.png');">Margarita</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.margarita"></span>
+                                    </div>
+                                    <span class="menu-desc">Napolitan sos, taze fesleğen ve eriyen mozzarella.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Kuru Domates
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/05.png" alt="Fesleğen ve Kuru Domates" onclick="openModal('images/Pages-Menu/Pizza/05.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"  onclick="openModal('images/Pages-Menu/Pizza/05.png')">Fesleğen ve Kuru Domates</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.domates"></span>
+                                    </div>
+                                    <span class="menu-desc">Pesto sos, güneşte kurutulmuş domates ve peynirle hafif ve aromatik bir tat sunuyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <div class="divider" style="background-color: #000000"></div>   
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/03.png" alt="Füme Etli Pizza" onclick="openModal('images/Pages-Menu/Pizza/03.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/03.png')">Füme Etli Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.fume"></span>
+                                    </div>
+                                    <span class="menu-desc">Mozzarella ve krema bazlı sos, füme et, taze roka ve hafif bal dokunuşuyla tamamlanıyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Barbekü Soslu Tavuklu
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/01.png" alt="Tavuklu Barbekü Soslu Pizza" onclick="openModal('images/Pages-Menu/Pizza/01.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/01.png')">Tavuklu Barbekü Soslu Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.tavuklu_barbeku"></span>
+                                    </div>
+                                    <span class="menu-desc">Barbekü soslu tavuk, susam ve taze soğanla tatlı, dumanlı ve enfes bir uyum yakalıyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        -->
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/02.png" alt="Dört Peynirli Pizza" onclick="openModal('images/Pages-Menu/Pizza/02.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/02.png')">Quattro Formaggi Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.peynirli"></span>
+                                    </div>
+                                    <span class="menu-desc">Mozzarella, cheddar, parmesan ve mascarpone, krema bazlı sosla buluşup damakta eriyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/07.png" alt="Vejetaryen Pizza" onclick="openModal('images/Pages-Menu/Pizza/07.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/07.png')">Vejetaryen Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.vejetaryen"></span>
+                                    </div>
+                                    <span class="menu-desc">Sebzeler, Napolitan sos ve peynirle doğanın en güzel tatlarını bir araya getiriyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/10.png" alt="Sucuklu Pizza" onclick="openModal('images/Pages-Menu/Pizza/10.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/10.png')">Sucuklu Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.sucuklu"></span>
+                                    </div>
+                                    <span class="menu-desc">Baharatlı sucuk, eriyen mozzarella ve Napolitan sos, taş fırında mükemmel kıvama ulaşıyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        <!-- Biftekli Pizza
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/09.png" alt="Biftekli Pizza" onclick="openModal('images/Pages-Menu/Pizza/09.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/09.png')">Biftekli Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.biftekli"></span>
+                                    </div>
+                                    <span class="menu-desc">Yumuşak biftek dilimleri, biberler ve peynirle her lokmada lezzet şöleni yaşatıyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        -->
+                        <!-- Ton Balıklı
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/08.png" alt="Ton Balıklı Pizza" onclick="openModal('images/Pages-Menu/Pizza/08.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/08.png')">Ton Balıklı Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.balikli"></span>
+                                    </div>
+                                    <span class="menu-desc">Ton balığı, mısır ve dereotu ile hafif ama doyurucu bir alternatif.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        -->
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Pizza/06.png" alt="Tavuklu Pizza" onclick="openModal('images/Pages-Menu/Pizza/06.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Pizza/06.png')">Tavuklu Pizza</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="pizza.tavuklu"></span>
+                                    </div>
+                                    <span class="menu-desc">Tavuk, taze sebzeler ve krema sosuyla zengin ve dengeli bir lezzet sunuyor.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>   
+                        <!-- Scroll boşluğu için ek boş alan -->
+                        <div style="height: 100px;"></div>
+                    </div>
+                <div class="menu-right-container">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-2" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px;">
+                <div class="sidepage-hero2" style="background-image: url('images/cover/cover-2.avif');">
+                    <a aria-label="Makarnalar">
+                        <h2 style="color: #ffffff   ; border-bottom: 3px solid #f3c365  ">Makarna</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                        <div class="menu-left-container" style="margin-bottom: 20px; gap: 60px; margin-top: 40px; background-color: #d0ffd7; box-shadow: 0 0 0 15px #d0ffd7; border-radius: 10px;">
+                        <!-- Başlık -->
+                        <div style="padding-left: 20px;">
+                            <h3 style="margin: 0 0 20px 0; font-size: 20px; color: #2cd15b; font-family: 'Pattaya', sans-serif; letter-spacing: 1px; font-weight: 300;">
+                                Şefin Spesiyali
+                            </h3>
+                        </div>
+                        <!-- Special Ürünler -->
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Makarna/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Makarna/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Makarna/S01.png');"><b>Urfalı Madonna</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="makarna.madonna"></span>
+                                    </div>
+                                    <span class="menu-desc">Karamelize soğan, isot ve özel sosların buluştuğu kendine özgü bir makarna lezzeti.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Makarna/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Makarna/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Makarna/S01.png');"><b>Asian Spagetti</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="makarna.asian"></span>
+                                    </div>
+                                    <span class="menu-desc">Kremamsı dokusu ve Asian chili sosun dengeli aromasıyla hazırlanan özel bir makarna.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Makarna/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Makarna/S01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Makarna/S01.png');"><b>Sweet Sweet Chili</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="makarna.sweet"></span>
+                                    </div>
+                                    <span class="menu-desc">Julien tavuk, krema ve napolitan sosla harmanlanmış nefis bir makarna.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <!-- Bahar Makarna
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Makarna/NM01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Makarna/NM01.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Makarna/NM01.png');"><b>Cevizli Bahar Spagetti</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" style="color: #d97824;" data-price="makarna.bahar"></span>
+                                    </div>
+                                    <span class="menu-desc">Karamelize soğan, ıspanak ve baharatlarla harmanlanmış kremalı penne; ceviz dokunuşuyla zenginleşen hafif bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    <div class="menu-left-container">
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/06.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/06.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/06.png');">Acılı Penne Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.acili"></span>
+                                    </div>
+                                    <span class="menu-desc">Napolitan sos, acı biber ve parmesan peyniriyle lezzet dolu bir deneyim.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Limonlu Makarna
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/07.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/07.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/07.png')">Limonlu Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.limonlu"></span>
+                                    </div>
+                                    <span class="menu-desc">Limon rendesi, krema ve karabiber ile hafif ve ferah bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/14.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/14.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/14.png')">Fesleğen Soslu Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.feslegen">/span>
+                                    </div>
+                                    <span class="menu-desc">Pesto sos ve kuru domatesin mükemmel uyumu.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ton Balıklı Makarna
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/09.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/09.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/09.png')">Ton Balıklı Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.balikli"></span>
+                                    </div>
+                                    <span class="menu-desc">Ton balığı, zeytin ve mantarın kremalı bir lezzete dönüşmesi.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/03.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/03.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/03.png')">Köz Patlıcanlı Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.patlicanli"></span>
+                                    </div>
+                                    <span class="menu-desc">Köz patlıcan, Sarmısaklı napolitan sos ve parmesanla doyurucu bir seçenek.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/01.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/01.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/01.png')">Köri Soslu Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.korili"></span>
+                                    </div>
+                                    <span class="menu-desc">Tavuk, mantar ve köri sosun baharatlı ve kremsi birleşimi.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/08.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/08.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/08.png')">Domates Soslu Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.domates"></span>
+                                    </div>
+                                    <span class="menu-desc">Bu makarna için özel sos içerikleri mevcuttur.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/12.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/12.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/12.png')">Vejeteryan Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.vejetaryan"></span>
+                                    </div>
+                                    <span class="menu-desc">Sebzeler, Napolitan sos ve dereotu ile hafif ama lezzetli.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/02.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/02.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/02.png')">Tavuklu Mantarlı Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.tavuklu"></span>
+                                    </div>
+                                    <span class="menu-desc">Krema soslu tavuk ve mantarın mükemmel uyumu.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/11.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/11.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/11.png')">Dört Peynirli Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.peynirli">/span>
+                                    </div>
+                                    <span class="menu-desc">Mozzarella, cheddar, parmesan ve beyaz peynirin nefis karışımı.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Biftekli Noodle
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/13.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/13.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/13.png')">Biftekli Noodle</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.biftekli"></span>
+                                    </div>
+                                    <span class="menu-desc">Marine edilmiş biftek, biber ve soya sosuyla Asya mutfağından bir tat.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <!-- Kuru Dometesli Makarna
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Makarna/04.png" alt="Fettucini" onclick="openModal('images/Pages-Menu/Makarna/04.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Makarna/04.png')">Kuru Domatesli Makarna</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.domatesli"></span>
+                                    </div>
+                                    <span class="menu-desc">Güneşte kurutulmuş domates ve krema ile aromatik bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/Pages-Menu/min/ElYapımıMakarna/02.png" alt="Fettucini" class="clickable-img" onclick="openModal('images/Pages-Menu/ElYapımıMakarna/02.png')">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/ElYapımıMakarna/02.png');"><b>Fettucini</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="makarna.fettucini"></span>
+                                    </div>
+                                    <span class="menu-desc">Tavuk, mantar ve parmesanla özel bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Scroll boşluğu için ek boş alan -->
+                        <div style="height: 100px;"></div>    
+                    </div>
+                    <div class="menu-right-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-3" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px;">
+                <div class="sidepage-hero2" style="background-image: url('images/cover/cover-3.png');">
+                    <a aria-label="Ala Carte">
+                        <h2 style="color:#ffffff; border-bottom: 3px solid #f3a565">Ala Carte</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                    <div class="menu-left-container" style="gap: 60px;">
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/menubutton/alacarte.png" alt="Fettucini" style="filter: blur(4px); pointer-events: none;">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"><b>Tavuklu Çökertme</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="ala_carte.tavuk"></span>
+                                    </div>
+                                    <span class="menu-desc">Çıtır patates yatağında tavuk parçaları ve özel soslarla eşsiz bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div>
+                        <div class="menu-item"> 
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/menubutton/alacarte.png" alt="Peynirli Tortelloni" style="filter: blur(4px); pointer-events: none;">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/ElYapımıMakarna/01.png');"><b>Dana Kavurmalı Çökertme</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="ala_carte.dana"></span>
+                                    </div>
+                                    <span class="menu-desc">Lokum kıvamında dana kavurma, çıtır patates ve özel sosların mükemmel uyumu.</span>
+                                </div>
+                                <!-- Scroll boşluğu için ek boş alan -->
+                                <div style="height: 100px;"></div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-4" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px;">
+                <div class="sidepage-hero2" style="background-image: url('images/cover/cover-4.png');">
+                    <a aria-label="Wrapler">
+                        <h2 style="color:#ffffff; border-bottom: 3px solid #f3a565">Wrapler</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                    <div class="menu-left-container" style="gap: 60px;">
+
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/menubutton/alacarte.png" style="filter: blur(4px); pointer-events: none;">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"><b>Barbekü Soslu Tavuk Wrap</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="wrap.barbeku"></span>
+                                    </div>
+                                    <span class="menu-desc">Izgara tavuk, çıtır sebzeler ve yoğun barbekü sosuyla hazırlanan doyurucu bir wrap lezzeti.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="divider" style="background-color: #000000"></div>
+
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/menubutton/alacarte.png" style="filter: blur(4px); pointer-events: none;">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"><b>Kremalı Mantarlı Tavuk Wrap</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="wrap.mantarlı"></span>
+                                    </div>
+                                    <span class="menu-desc">Kremalı sos, tavuk, mantar ve patatesin kekikle buluştuğu enfes bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="divider" style="background-color: #000000"></div>
+
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/menubutton/alacarte.png" style="filter: blur(4px); pointer-events: none;">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"><b>Sweet Chili Soslu Tavuk Wrap</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="wrap.sebzeli"></span>
+                                    </div>
+                                    <span class="menu-desc">Taze sebzeler, tavuk ve sweet chili sosun uyumuyla hazırlanan özel wrap.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="divider" style="background-color: #000000"></div>
+
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/menubutton/alacarte.png" style="filter: blur(4px); pointer-events: none;">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"><b>Sezar Salatalı Tavuk Wrap</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="wrap.sezarlı"></span>
+                                    </div>
+                                    <span class="menu-desc">Özel Sezar sosu, taze yeşillikler ve tavuk parçalarıyla hazırlanan hafif ve lezzetli bir wrap.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="divider" style="background-color: #000000"></div>
+
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image-col">
+                                    <div class="menu-image">
+                                        <img loading="lazy" src="images/menubutton/alacarte.png" style="filter: blur(4px); pointer-events: none;">
+                                    </div>
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name"><b>Patatesli ve Kızarmış Sebzeli Wrap</b></span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price" data-price="wrap.patetesli"></span>
+                                    </div>
+                                    <span class="menu-desc">Çıtır patates ve kızarmış sebzelerin bir araya geldiği doyurucu bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="height: 100px;"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-5" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">
+                <div class="sidepage-hero2" style="background-image: url('images/cover/cover-5.png');">
+                    <a aria-label="French Fries">
+                        <h2 style="color:#ffffff; border-bottom: 3px solid #f3be3a">French Fries</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                    <div class="menu-left-container">
+                        
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/menubutton/alacarte.png" alt="Fettucini" style="filter: blur(4px); pointer-events: none;">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">Mantar Soslu Schnitzel</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="french.schnitzel"></span>
+                                    </div>
+                                    <span class="menu-desc">Panelenmiş tavuk schnitzel, kremalı mantar sosu ve patates kızartmasıyla servis edilir.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/menubutton/alacarte.png" alt="Fettucini" style="filter: blur(4px); pointer-events: none;">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">Krema ve Mozerella Soslu <br>Elma Dilim Patates</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="french.elmadilim"></span>
+                                    </div>
+                                    <span class="menu-desc">Kremalı mozzarella sosu ve çıtır elma dilim patatesin enfes uyumu.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/menubutton/alacarte.png" alt="Fettucini" style="filter: blur(4px); pointer-events: none;">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">Patates Kızartması</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="french.patates"></span>
+                                    </div>
+                                    <span class="menu-desc">Dışı çıtır, içi yumuşak patates kızartmasıyla keyifli bir atıştırmalık.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Scroll boşluğu için ek boş alan -->
+                        <div style="height: 100px;"></div>  
+                    <div class="menu-right-container" style="gap: 10px; margin-top: 40px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-06" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">
+                <div class="sidepage-hero2" style="background-image: url('images/cover/cover-6.png');">
+                    <a aria-label="Salatalar">
+                        <h2 style="color:#ffffff; border-bottom: 3px solid #7b024d">3ü1 Arada</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                    <div class="menu-left-container">
+                        
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/04.png" alt="Akdeniz Salatası" onclick="openModal('images/Pages-Menu/Salata/04.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">3'ü 1 Arada Kremalı Tavuk</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="in1.kremalı"></span>
+                                    </div>
+                                    <span class="menu-desc">Kremalı tavuk, çıtır patates ve Akdeniz salatasının buluştuğu doyurucu bir tabak.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/04.png" alt="Akdeniz Salatası" onclick="openModal('images/Pages-Menu/Salata/04.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">3'ü 1 Arada Köri Tavuk</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="in1.korili"></span>
+                                    </div>
+                                    <span class="menu-desc">Köri soslu tavuk, çıtır patates ve Akdeniz salatasıyla lezzet dolu bir tercih.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/04.png" alt="Akdeniz Salatası" onclick="openModal('images/Pages-Menu/Salata/04.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">3'ü 1 Arada Acılı Tavuk</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="in1.acili"></span>
+                                    </div>
+                                    <span class="menu-desc">Kremalı acılı tavuk, çıtır patates ve Akdeniz salatasının eşsiz uyumu.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/04.png" alt="Akdeniz Salatası" onclick="openModal('images/Pages-Menu/Salata/04.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">3'ü 1 Arada Barbekü Tavuk</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="in1.barbekulu"></span>
+                                    </div>
+                                    <span class="menu-desc">Barbekü soslu kekikli tavuk, çıtır patates ve Akdeniz salatasıyla servis edilir.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <!-- Scroll boşluğu için ek boş alan -->
+                        <div style="height: 100px;"></div>  
+                    <div class="menu-right-container" style="gap: 10px; margin-top: 40px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-07" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">
+                <div class="sidepage-hero2" style="background-image: url('images/cover/cover-7.avif');">
+                    <a aria-label="Salatalar">
+                        <h2 style="color:#75a700; border-bottom: 3px solid #7b024d">Salatalar</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                    <div class="menu-left-container">
+                        
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/04.png" alt="Akdeniz Salatası" onclick="openModal('images/Pages-Menu/Salata/04.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/04.png');"; style="color: #75a700;">Akdeniz Salatası</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="salata.akdeniz"></span>
+                                    </div>
+                                    <span class="menu-desc">Yeşillikler, cherry domates ve sosla ferah bir seçenek.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Satalar
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #318d1f;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/02.png" alt="Sezar Salata" onclick="openModal('images/Pages-Menu/Salata/02.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/02.png');"; style="color: #75a700;">Sezar Salata</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="salata.sezar"></span>
+                                    </div>
+                                    <span class="menu-desc">Iceberg, tavuk, parmesan ve özel Sezar sosla klasik bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/01.png" alt="Gavurdağ Salatası" onclick="openModal('images/Pages-Menu/Salata/01.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/01.png');"; style="color: #75a700;">Gavurdağ Salatası</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="salata.gavurdagi"></span>
+                                    </div>
+                                    <span class="menu-desc">Ceviz ve peynirle zenginleşen taze sebzeli bir tat.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/03.png" alt="Yoğurtlu Salata" onclick="openModal('images/Pages-Menu/Salata/03.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/03.png');"; style="color: #75a700;">Yoğurtlu Salata</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="salata.yogurtlu"></span>
+                                    </div>
+                                    <span class="menu-desc">Sarımsaklı yoğurt, tavuk ve tereyağında sotelenmiş bir lezzet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider" style="background-color: #000000"></div> 
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #75a700;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Salata/05.png" alt="Biftekli Salata" onclick="openModal('images/Pages-Menu/Salata/05.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Salata/05.png');"; style="color: #75a700;">Biftekli Salata</span>
+                                        <span class="menu-dots" style="border-color: #75a700;"></span>
+                                        <span class="menu-price" style="color: #75a700;" data-price="salata.biftekli"></span>
+                                    </div>
+                                    <span class="menu-desc">Izgara biftek, yeşillikler, cherry domates ve sosla hazırlanan doyurucu bir salata.</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <!-- Scroll boşluğu için ek boş alan -->
+                        <div style="height: 100px;"></div>  
+                    <div class="menu-right-container" style="gap: 10px; margin-top: 40px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tiramusu
+    <section id="page-05" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 0px; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">
+                <div class="sidepage-hero2" style="background-image: url('images/Tiramisu.png');">
+                    <a aria-label="Tiramisu">
+                        <h2 style="color:#e69825; border-bottom: 3px solid #a14900">Tiramisu</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile-page">
+                <div class="menu-item-container">
+                    <div class="menu-left-container">
+                        <div class="menu-item">
+                            <div class="menu-header">
+                                <div class="menu-image" style="border-color: #da8139;">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Tatlılar/01.png" alt="Sezar Salata" onclick="openModal('images/Pages-Menu/Tatlılar/01.png')">
+                                </div>
+                                <div class="menu-text-container">
+                                    <div class="menu-text">
+                                        <span class="menu-name" onclick="openModal('images/Pages-Menu/Tatlılar/01.png');"; style="color: #da8139;">Tiramisu</span>
+                                        <span class="menu-dots" style="border-color: #da8139;"></span>
+                                        <span class="menu-price" style="color: #da8139;" data-price="tatli.tiramisu"></span>
+                                    </div>
+                                    <span class="menu-desc">Yumuşak kek katları, kahve aroması ve mascarpone kremasıyla hazırlanan İtalyan klasiği: hafif, serinletici ve tatlı bir final.</span>
+                                </div>
+                            </div>
+                        </div> 
+                        <div style="height: 100px;"></div>  
+                    <div class="menu-right-container" style="gap: 10px; margin-top: 40px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!-- Tatlılar
+        <section id="page-05" class="page">
+            <div class="page-scroll">
+                <div class="menu-title-container2">
+                    <h2>Kruvasan & Tiramisu</h2>
+                </div>
+                <div class="mobile-page2">
+                    <div class="menu-item-container2" style="gap: 0px; column-gap: 0px;">
+                        <div class="menu-right-container2" style="margin-top: 0px; line-height: 0.8;">
+                            <div class="menu-item2" style="text-align:left; flex-direction: start; max-width: 500px; padding: 30px 0px 15px 0px;">
+                                <div class="menu-header2" style="justify-content: space-between; width: 100%; display: flex; gap: 15px; align-items: center;">
+                                    <div class="menu-image2">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Tatlılar/01.png" alt="Fettucini" class="clickable-img" onclick="openModal('images/Pages-Menu/Tatlılar/01.png')">
+                                    </div>   
+                                    <div class="menu-text-container">
+                                        <div class="menu-text">
+                                            <span class="menu-name" onclick="openModal('images/Pages-Menu/Tatlılar/01.png')">Tiramisu</span>
+                                            <span class="menu-dots"></span>
+                                            <span class="menu-price">150 TL</span>
+                                        </div> 
+                                    </div>         
+                                </div> 
+                            </div>
+                            <div class="divider2"></div>
+                            <div class="menu-item2" style="text-align:left; flex-direction: start; max-width: 500px; padding: 30px 0px 15px 0px;">
+                                <div class="menu-header2" style="justify-content: space-between; width: 100%; display: flex; gap: 15px; align-items: center;">
+                                    <div class="menu-image2">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Tatlılar/04.png" alt="Fettucini" class="clickable-img" onclick="openModal('images/Pages-Menu/Tatlılar/04.png')">
+                                    </div>      
+                                    <div class="menu-text-container">
+                                        <div class="menu-text"> 
+                                            <span class="menu-name" style="white-space: nowrap;" onclick="openModal('images/Pages-Menu/Tatlılar/04.png')">Sade Kruvasan</span>
+                                            <span class="menu-dots"></span>
+                                            <span class="menu-price">90 TL</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divider2"></div>
+                            <div class="menu-item2" style="text-align:left; flex-direction: start; max-width: 500px; padding: 30px 0px 15px 0px;">
+                                <div class="menu-header2" style="justify-content: space-between; width: 100%; display: flex; gap: 15px; align-items: center;">
+                                    <div class="menu-image2">
+                                        <img loading="lazy" src="images/Pages-Menu/min/Tatlılar/03.png" alt="Fettucini" class="clickable-img" onclick="openModal('images/Pages-Menu/Tatlılar/03.png')">
+                                </div>       
+                                    <div class="menu-text-container">
+                                        <div class="menu-text"> 
+                                            <span class="menu-name" style="white-space: nowrap;" onclick="openModal('images/Pages-Menu/Tatlılar/03.png')">Meyveli Kruvasan</span>
+                                            <span class="menu-dots"></span>
+                                            <span class="menu-price">140 TL</span>
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="divider2"></div>
+                            <div class="menu-item2" style="text-align:left;     flex-direction: start; padding: 15px 0px 15px 40px;">
+                                <span style="line-height: 0.5; font-size: 15px; color: #ffffff;">(Çikolata Veya Pastacı Kremasıyla)</span>
+                            </div>
+                            <div class="menu-item2" style="text-align:left; flex-direction: start; padding: 15px 0px 10px 80px;">
+                                <span>Muz</span>
+                            </div>
+                            <div class="menu-item2" style="text-align:left; flex-direction: start; padding: 15px 0px 10px 80px;">
+                                <span>Çilek</span>
+                            </div>
+                            <div class="menu-item2" style="text-align:left; flex-direction: start; padding: 15px 0px 10px 80px;">
+                                <span>Kivi<span style="line-height: 1.8; font-size: 20px">&nbsp;&nbsp;(Mevsimine Göre)</span></span>
+                            </div>
+                            <div class="menu-item2" style="text-align:left; flex-direction: start;  max-width: 500px; padding: 30px 0px 15px 0px;">
+                            <div class="menu-header2" style="justify-content: space-between; width: 100%; display: flex; gap: 15px; align-items: center;">
+                                <div class="menu-image2">
+                                    <img loading="lazy" src="images/Pages-Menu/min/Tatlılar/02.png" alt="Fettucini" class="clickable-img" onclick="openModal('images/Pages-Menu/Tatlılar/02.png')">
+                                </div>      
+                                <div class="menu-text-container">
+                                    <div class="menu-text"> 
+                                        <span class="menu-name" style="white-space: nowrap;" onclick="openModal('images/Pages-Menu/Tatlılar/02.png')">Sandviç Kruvasan</span>
+                                        <span class="menu-dots"></span>
+                                        <span class="menu-price">150 TL</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divider2"></div>
+                            <div class="menu-item2" style="text-align:left;     flex-direction: start; padding: 0px 0px 10px 120px;">
+                                <span>Peynir</span>
+                            </div>
+                            <div class="menu-item2" style="text-align:left;     flex-direction: start; padding: 0px 0px 10px 120px;">
+                                <span>Domates</span>
+                            </div>
+                            <div class="menu-item2" style="text-align:left;     flex-direction: start; padding: 0px 0px 10px 120px;">
+                                <span>Salatalık</span>
+                            </div>
+                            <div class="menu-item2" style="text-align:left;     flex-direction: start; padding: 0px 0px 10px 120px;">
+                                <span>Marul</span>
+                            </div>
+                        </div>
+                        Scroll boşluğu için ek boş alan
+                        <div style="height: 100px;"></div>  
+                        <div class="menu-left-container2" style="margin-top: 40px; line-height: 0.8;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+    <!-- Sıcak İçecekler
+    <section id="page-6" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container2" style="padding-top: 20px;">
+                <h2 style="color: #a53f00; padding-top: 0px; border-bottom: 3px solid #a53f00; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">Kahve & Çay</h2>
+            </div>
+            <div class="mobile-page2" style="padding: 0px 0px 80px 0px;">
+                <div class="menu-item-container2" style="transform: scale(1); column-gap: 0px;">
+                    <div class="menu-right-container2" style="line-height: 0.6;">
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left; padding: 75px 0px 15px 0px">
+                            <span style="color: #f3a565;">Espresso</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.espresso"></p>
+                        </div>
+                        <div class="divider" style="max-width: 300px; background-color: #a53f00"></div>
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left">
+                            <span style="color: #f3a565;">Americano</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.americano"></p>
+                        </div>
+                        <div class="divider" style="max-width: 300px; background-color: #a53f00"></div>
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left">
+                            <span style="color: #f3a565;">Latte</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.latte"></p>
+                        </div>
+                        <div class="divider" style="max-width: 300px; background-color: #a53f00"></div>
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left">
+                            <span style="color: #f3a565;">Cappuccino</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.cappuccino"></p>
+                        </div>
+                        <div class="divider" style="max-width: 300px; background-color: #a53f00"></div>
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left">
+                            <span style="color: #f3a565;">Filtre Kahve</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.filtre"></p>
+                        </div>
+                        <div class="divider" style="max-width: 300px; background-color: #a53f00"></div>
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left">
+                            <span style="color: #f3a565;">Türk Kahvesi</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.turk"></p>
+                        </div>
+                        <div class="divider" style="max-width: 300px; background-color: #a53f00"></div>
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left">
+                            <span style="color: #f3a565;">Sıcak Çikolata</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.cikolata"></p>
+                        </div>
+                        <div class="divider" style="max-width: 300px; background-color: #a53f00"></div>
+                        <div class="menu-item2" style="transform: scale(0.9); text-align:left">
+                            <span style="color: #f3a565;">Çay</span>
+                            <p style="text-align:right; color: #f3a565;" data-price="sicak_icecek.cay"></p>
+                        </div>
+                        <div style="height: 100px;"></div>  
+                    </div>
+                    <div class="menu-left-container2">
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    -->
+    <section id="page-7" class="page">
+        <div class="page-scroll">
+            <div class="menu-title-container" style="padding-top: 20px;">
+                <h2 style="color:#b10000; border-bottom: 3px solid #b10000">Soğuk İçecekler</h2>
+            </div>
+            <div class="mobile-page2">
+                <div class="menu-item-container2">
+                    <div class="menu-right-container2" style="line-height: 0.8;">
+                        <div class="menu-item2" style="color:#ffffff; text-align:left; padding: 75px 0px 15px 0px";>
+                            <span>Coca Cola Şişe</span>
+                            <p style="text-align:right" data-price="soguk_icecek.kutu"></p>
+                        </div>
+                        <div class="divider" style="background-color: #b10000; max-width: 350px;"></div>
+                        <div class="menu-item2" style="color:#ffffff; text-align:left; padding: 15px 0px";>
+                            <span>Coca Cola Zero</span>
+                            <p style="text-align:right" data-price="soguk_icecek.kutu"></p>
+                        </div>
+                        <div class="divider" style="background-color: #b10000; max-width: 350px;"></div>
+                        <div class="menu-item2" style="color:#ffffff; text-align:left; padding: 15px 0px";>
+                            <span>Fanta</span>
+                            <p style="text-align:right" data-price="soguk_icecek.kutu"></p>
+                        </div>
+                        <div class="divider" style="background-color: #b10000; max-width: 350px;"></div>
+                        <div class="menu-item2" style="color:#ffffff; text-align:left; padding: 15px 0px";>
+                            <span>Sprite</span>
+                            <p style="text-align:right" data-price="soguk_icecek.kutu"></p>
+                        </div>
+                        <div class="divider" style="background-color: #b10000; max-width: 350px;"></div>
+                        <div class="menu-item2" style="color:#ffffff; text-align:left; padding: 15px 0px";>
+                            <span>Fuse Tea</span>
+                            <p style="text-align:right" data-price="soguk_icecek.kutu"></p>
+                        </div>
+                        <div class="divider" style="background-color: #b10000; max-width: 350px;"></div>
+                        <div class="menu-item2" style="color:#ffffff; text-align:left; padding: 15px 0px";>
+                            <span>Soda</span>
+                            <p style="text-align:right" data-price="soguk_icecek.soda"></p>
+                        </div>
+                        <div class="divider" style="background-color: #b10000; max-width: 350px;"></div>
+                        <div class="menu-item2" style="color:#ffffff; text-align:left; padding: 15px 0px";>
+                            <span>Su</span>
+                            <p style="text-align:right" data-price="soguk_icecek.su"></p>
+                        </div>
+                        <div class="divider" style="background-color: #b10000; max-width: 350px;"></div>
+                        <!-- Scroll boşluğu için ek boş alan -->
+                        <div style="height: 200px;"></div>  
+                    </div>
+                    <div class="menu-left-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page-8" class="page">
+        <div class="page-container">
+            <!-- Instagram QR (Sola Yaslı) -->
+            <div class="qr-left">
+                <a href="https://www.instagram.com/stjulianmersin/" target="_blank">
+                    <img loading="lazy" src="images/qr1.png" alt="Instagram QR">
+                    <p class="instagram-text">@StJulianMersin</p>
+                </a>
+            </div>
+
+            <!-- Orta Logo -->
+            <div class="logo-container">
+                <img loading="lazy" src="images/logo-icon-trans.png" alt="St. Julian Logo">
+            </div>
+
+            <!-- Konum QR (Sağa Yaslı) -->
+            <div class="qr-right">
+                <a href="https://www.google.com/maps/place/St.+Julian/@36.7734777,34.540501,17z/data=!3m1!4b1!4m6!3m5!1s0x15278b002acd9077:0x5791131148a089d3!8m2!3d36.7734777!4d34.540501!16s%2Fg%2F11m6r4chft?entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <img loading="lazy" src="images/qr33.png" alt="Konum QR">
+                    <p class="address-text">Çiftlikköy Mh, Akademi plaza<br>41/AB, 33110<br>Yenişehir/Mersin</p>
+                </a>
+            </div>
+        </div>
+    </section>    
+</div>    
+<!-- Home Butonu (Yeni) -->
+<button class="floating-button" onclick="scrollToTop2(0)" aria-label="Ana Sayfaya Dön">
+    <img src="images/home2.png" id="home" alt="Home Page">
+</button>
+<!-- Instagram Butonu (Yeni) -->
+<a href="https://www.instagram.com/stjulianmersin/" target="_blank" class="instagram-floating-button" aria-label="instagram adresi">
+    <img src="images/inslogo.png" id="instagram" alt="@StJulianMersin">
+</a>
+
+<!-- Modal Penceresi -->
+<div id="imageModal" class="modal">
+    <div class="modal-content-container">
+        <img id="modalImage" src="" alt="Büyütülmüş Resim" class="modal-image">
+        <button onclick="closeModal()" class="close-button">✖</button>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+    <script src="prices.js"></script>
+    <script src="price-bind.js"></script>
+</body>
+</html>

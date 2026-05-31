@@ -5,48 +5,75 @@ const PRICES = {
 
   pizza: {
     // Şefin Spesiyali
-    lady: 400,      // 360 + 40
-    garden: 385,      // 345 + 40
-    alfredo: 370,           // 330 + 40
-    fire: 380,           // 340 + 40
+    pesto: 420,
+    demiglace: 480,
+    cokertme: 440,
+    arpa: 470,
+    mushroom: 420,
+    lady: 440,
+    alfredo: 390,
+    kavurma: 430,
+    //garden: 385,
+    //fire: 380,
 
     // Klasikler
-    margarita: 260,               // 220 + 40
-    domates: 300,   // 260 + 40
-    fume: 350,               // 300 + 50
-    tavuklu_barbeku: 310,         // 270 + 40
-    peynirli: 290,           // 250 + 40
+    margarita: 310,
+    fume: 430,               // 300 + 50
+    peynirli: 380,           // 250 + 40
     vejetaryen: 270,              // 230 + 40
-    sucuklu: 290,                 // 250 + 40
-    biftekli: 350,                // 300 + 50
-    balikli: 300,             // 260 + 40
-    tavuklu: 290                  // 250 + 40
+    sucuklu: 350,                 // 250 + 40
+    tavuklu: 330                  // 250 + 40
+    //domates: 300,
+    //tavuklu_barbeku: 310,
+    //biftekli: 350,
+    //balikli: 300,
   },
 
   makarna: {
     // Şefin Spesiyali
+    madonna: 230,
+    asian: 220,
     sweet: 260,
-    bahar: 280,
+    //bahar: 280,
 
     // Klasikler
     acili: 190,
-    limonlu: 200,
     feslegen: 230,
-    balikli: 270,
     patlicanli: 230,
     korili: 220,
     domates: 180,
     vejetaryan: 190,
     tavuklu: 230,
     peynirli: 240,
-    biftekli: 270,
-    domatesli: 220
+    fettucini: 250,
+    //limonlu: 200,
+    //balikli: 270,
+    //biftekli: 270,
+    //domatesli: 220,
   },
 
-  el_yapimi_makarna: {
-    imza: 340,
-    fettucini: 250,
-    tortelloni: 260
+  ala_carte: {
+    tavuk: 270,
+    dana: 330,
+  },
+  
+  wrap: {
+    barbeku: 230,
+    mantarlı: 230,
+    sebzeli: 240,
+    sezarlı: 220,
+    patetesli: 180,
+  },
+  french: {
+    schnitzel: 270,
+    elmadilim: 120,
+    patates: 100,
+  },
+  in1: {
+    kremalı: 280,
+    korili: 290,
+    acili: 270,
+    barbekulu: 300,
   },
 
   salata: {
