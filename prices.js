@@ -32,7 +32,6 @@ const PRICES = {
   makarna: {
     // Şefin Spesiyali
     madonna: 230,
-    asian: 220,
     sweet: 260,
     //bahar: 280,
 
@@ -94,13 +93,13 @@ const PRICES = {
     latte: 90,
     cappuccino: 90,
     filtre: 70,
-    turk: 60,
+    turk: 70,
     cikolata: 100,
     cay: 20
   },
 
   soguk_icecek: {
-    kutu: 60,
+    kutu: 70,
     soda: 25,
     ayran: 40,
     su: 20

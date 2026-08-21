@@ -577,24 +577,6 @@
                                 </div>
                                 <div class="menu-text-container">
                                     <div class="menu-text">
-                                        <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Makarna/S01.png');"><b>Asian Spagetti</b></span>
-                                        <span class="menu-dots"></span>
-                                        <span class="menu-price" style="color: #d97824;" data-price="makarna.asian"></span>
-                                    </div>
-                                    <span class="menu-desc">Kremamsı dokusu ve Asian chili sosun dengeli aromasıyla hazırlanan özel bir makarna.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="divider" style="background-color: #000000"></div> 
-                        <div class="menu-item">
-                            <div class="menu-header">
-                                <div class="menu-image-col">
-                                    <div class="menu-image">
-                                        <img loading="lazy" src="images/Pages-Menu/min/Makarna/S01.png" alt="Fettucini Special" class="clickable-img" onclick="openModal('images/Pages-Menu/Makarna/S01.png')">
-                                    </div>
-                                </div>
-                                <div class="menu-text-container">
-                                    <div class="menu-text">
                                         <span class="menu-name" style="color: #d97824;" onclick="openModal('images/Pages-Menu/Makarna/S01.png');"><b>Sweet Sweet Chili</b></span>
                                         <span class="menu-dots"></span>
                                         <span class="menu-price" style="color: #d97824;" data-price="makarna.sweet"></span>
